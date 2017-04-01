@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Aee</title>
+	<link rel="stylesheet" href="MF.css" title="css1" media="screen"/>
+	<link rel="shortcut icon" type="image/png" href="css/css/mf1.ico"/>
+	<script src="MF.js"></script>
+</head>
+
+<body>
+	<div id="logo">
+	</div>
+	
+	<nav>
+		<a class="navlist" href="peasant.html">Home</a>
+		<a class="navlist" href="film.html">Film</a>
+		<a class="navlist" href="photograph.html">Photography</a>
+		<a class="navlist" href="blog.html">Blog</a>
+		<a class="navlist" href="about.html">About</a>
+	</nav>
+	
+	<div class="loginform">
+	<h2 class="loginname">Login Form</h2>
+	
+		<div class="loginformbody">
+			<form action="login.php" method="post">
+				<br>Username: <input class="unameinput" type="text" name="uname"><br />
+				<br>Password: <input class="unameinput" type="password" name="password"><br />
+				
+				<input id="loginbtn" type="submit" value="login">
+			</form>
+		</div>
+		
+		<input class="rememberme" type="checkbox" checked="checked">Remember me
+		
+		<div id="registrationoverlay" class="registrationcontainer">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeRegister()">&times;</a>
+			
+			<h1 class="registrationform">Registration<br /> Form<h1>
+	
+				<div id="registrationformbody">
+					<form action="user.php" method='post'>
+						<br>First Name: <input class="registrationinput" type="text" name="fname"><br />
+						<br>Last Name: <input class="registrationinput" type="text" name="lname"><br />
+						<br>Country: <input class="registrationinput" type="text" name="country"><br/>
+						<br>Email: <input class="registrationinput" type="text" name="email"><br />
+						<br>Username: <input class="registrationinput" type="text" name="uname"><br />
+						<br>Password: <input class="registrationinput" type="password" name="password"><br />
+						<br>Confirm Password: <input class="registrationinput" type="password" name="confirmpwd"></br>
+
+						<input class="registrationbtn" type="submit" value="Register"/>
+					</form>
+				</div>
+				
+		</div>
+
+		<div class="register">
+			Not a member yet?<span style="color:#FA00BB"; onclick="openRegister()"> Register</span>
+		</div>
+		
+	</div>
+			
+</body>
+</html>

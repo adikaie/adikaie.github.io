@@ -1,0 +1,762 @@
+
+	h1 {
+		font-family: murderous;
+		font-size: 500%;
+		text-align: center;
+		color: white;
+		margin-top: 1%;
+		letter-spacing: 2px;
+	}
+	
+	body {
+	background-image: url("photos/bgdaw1.jpg")
+	}
+	
+	#blogp {
+		font-family: StateOfDreaming;
+		font-size: 150%;
+		text-align: center;
+		color: white;
+		margin-top: -3%;
+	}
+	
+	a:hover {
+		background-color: #282B2B;
+	}
+
+		
+	nav {
+		list-style-type: none;
+		margin: 0;
+		overflow: hidden;
+		background-color: #262424;
+		display: block;
+		padding: .5% 3%;
+		text-align: center;
+		text-shadow: 2px 2px black;
+	}
+	
+	.navlist {
+		text-decoration: none;
+		font-family: dk;
+		color: white;
+		font-size: 130%;
+		padding: 30px;
+		letter-spacing: 4px;
+	}
+	
+	@font-face {
+		font-family: starduster;
+		font-weight: bold;
+		src:url("fonts/starduster.ttf");
+	}
+
+	
+/*peasant*/
+
+	#logo {
+		background-image: url("photos/logo2.png");
+		width: 100%;
+		height: 290px;
+		background-repeat:no-repeat;
+		background-position: center;
+		margin-top: -1%;
+	}
+	
+	/*Login Form*/
+	
+		.loginform {
+			border-style: solid;
+			border-color: white;
+			margin: auto;
+			margin-top: 1%;
+			width: 40%;
+			color: white;
+		}
+		
+		.loginname {
+			font-family: murderous;
+			font-size: 400%;
+			text-align: center;
+			margin-top: 1%;
+			letter-spacing: 2px;
+		}
+		
+		.loginformbody {
+			font-family: dk;
+			font-size: 150%;
+			width: 83%;
+			text-align: right;
+			margin-top: -7%;
+		}
+		
+		.unameinput {
+			font-family: mcletters;
+			font-size: 100%;
+			width: 55%;
+		}
+		
+		#loginbtn {
+			font-family: dk;
+			font-size: 100%;
+			padding-bottom:1%;
+			text-align: center;
+			margin-top: 4%;
+			margin-right: 20%;
+		}
+		
+		.rememberme {
+			font-family: mcletters;
+			padding: 1% 0 0 2%;
+		}
+		
+		.register {
+			font-family: mcletters;
+			text-align: right;
+			padding-right: 2%;
+			padding-top: 2%;
+		}
+		
+		.registerme {
+			color: #F707D7;
+		}
+		
+			/*registration form*/
+		
+				.registrationcontainer {
+					background-image: url("photos/form.png");
+					height: 0%;
+					position: fixed;
+					z-index: 1;
+					top: 0;
+					left: 25%;
+					background-color: #111;
+					overflow-y: hidden;
+					transition: 0.5s;
+					margin: auto;
+					width: 50%;
+				}
+				
+				.registrationform {
+					padding-top: 1%;
+					font-size: 420%;
+				}
+				
+				.registrationcontainer .closebtn {
+					position: absolute;
+					top: 0%;
+					right: 5%;
+					font-size: 300%;
+					margin-left: 60%;
+					color: #F707D7;
+					text-decoration: none;
+				}
+
+				#registrationformbody {
+					font-family: dk;
+					font-size: 25%;
+					width: 90%;
+					text-align: right;
+					margin-top: -2%;
+				}
+	
+				.registrationinput {
+					font-family: mcletters;
+					font-size: 70%;
+					width: 55%;
+				}
+	
+				.registrationbtn {
+					font-family: dk;
+					font-size: 100%;
+					text-align: center;
+					padding-bottom:1%;
+					margin: auto;
+					display:block;
+					margin-top: 2%;
+				}
+	
+				@font-face {
+					font-family: mcletters;
+					src: url("fonts/mcletters.ttf");
+				}
+	
+		
+	
+/*film*/
+
+	.filmvideo {
+		background-repeat: no-repeat;
+		height: 100%;
+		margin-top: -10%;
+		margin-left: -85%;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	#filmname {
+		font-family: murderous;
+		font-size: 500%;
+		text-align: center;
+		color: white;
+		text-shadow: 4px 8px black;
+		letter-spacing: 2px;
+		margin-top: 1%;
+	}
+	
+	.filmbg {
+		background-image: url("photos/filbg2.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+	.uploadfilmbtn {
+		width: 9%;
+		height: 4%;
+		font-size: 100%;
+		background-color: pink;
+		margin-left: 13%;
+		font-family: dk;
+		letter-spacing: 2px;
+		position: fixed;
+		margin-top: 3%;
+	}
+
+	#filmoverlay {
+		font-family: dk;
+		font-size: 150%;
+		text-align: left;
+		background-image: url("photos/filbg2.png");
+		margin: auto;
+	}
+
+	.uploadfilmbtn:hover {
+		border-color: #F20C18;
+	}
+
+	.filmcontainer {
+		height: 0;
+		position: fixed;
+		top: 0%;
+		overflow-y: scroll;
+		transition: 0.1s;
+		width: 100%;
+		margin: auto;
+		}
+
+	.filmcontainer .closebtn {
+			position: absolute;
+			top: 0%;
+			right: 5%;
+			font-size: 300%;
+			margin-right: 0%;
+			color: #F707D7;
+			text-decoration: none;
+		}
+
+	.filminput {
+		color: white;
+		width: 50%;
+		margin-top: 1%;
+		font-family: dk;
+		letter-spacing: 1px;
+		font-size: 100%;
+		margin: auto;
+		}
+
+	.filmtitle {
+		font-family: StateOfDreaming;
+		color: white;
+		background-color: transparent;
+		border-style: solid;
+		border-color: #E31096;
+		font-size: 100%;
+		width: 70%;
+		border-style: none;
+		margin-left: 5%;
+	}
+
+	.filmupload {
+		height: 300px;
+		width: 70%;
+		border-style: dashed;
+		border-color: #E31096;
+		text-align: center;
+		margin: auto;
+		margin-top: 5%;
+	}
+
+	.filmupload:hover {
+		background-color: #FF0FDF;
+	}
+
+	.filmcontent {
+		height: 100px;
+		width: 71%;
+		background-color: transparent;
+		border-style: solid;
+		border-color:#E31096;
+		color: white;
+		font-size: 80%;
+		color: white;
+		overflow-y: scroll;
+		font-family: "Comic Sans MS";
+		margin: auto;
+		margin-top: 3%;
+	}
+
+	.filmbtn {
+		font-family: dk;
+		font-size: 100%;
+		text-align: center;
+		padding-bottom: 1%;
+		margin: auto;
+		display:block;
+		margin-top: 2%;
+	}
+	
+	.videofilm {
+		width: 15em;
+		height: 10.5em;
+		padding-right: 3%;
+	}
+	
+	#filmgallery {
+		display: flex;
+		flex-flow: row wrap;
+		padding: 1% 2% 2% 1%;
+		width: 20em;
+		margin-left: 39%;
+		display: block;
+	}
+
+/*photography*/
+
+	#photography {
+		background-image: url("photos/photography.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	.picphoto {
+		width: 10em;
+		height: 7em;
+		padding-right: 3%;
+	}
+	
+	.photoupload {
+		width: 40%;
+		border-style: dashed;
+		border-color: #E31096;
+		color: white;
+		text-align: center;
+		margin: auto;
+		margin-top: 7%;
+	} 
+
+	.photoboxfile {
+		height: 300px;
+	}
+
+	.photoupload:hover {
+		background-color: #FF0FDF;
+	}
+	
+	#gallery {
+		display: flex;
+		flex-flow: row wrap;
+		padding: 0 1% 1% 0;
+		margin-top: 1%;
+		margin-left: 23%;
+		width: 45em;
+	}
+
+	.uploadbtn {
+		width: 9%;
+		height: 4%;
+		font-size: 100%;
+		background-color: pink;
+		margin-left: 80.7%;
+		margin-top: 4%;
+		font-family: dk;
+		letter-spacing: 2px;
+		position: fixed;
+	}
+
+	.photocontent {
+			height: 100px;
+			width: 70%;
+			background-color: transparent;
+			border-style: solid;
+			border-color:#E31096;
+			color: white;
+			font-size: 80%;
+			color: white;
+			overflow-y: scroll;
+			font-family: "Comic Sans MS";
+			margin:auto;
+		}
+
+	.photocontent:hover {
+		border-color: #F20C18;
+	}
+
+
+		.photocontainer {
+			height: 0;
+			position: fixed;
+			top: 0%;
+			overflow-y: scroll;
+			transition: 0.1s;
+			width: 100%;
+			margin: auto;
+		}
+
+		#photooverlay {
+			font-family: dk;
+			font-size: 150%;
+			text-align: left;
+			background-image: url("photos/photography.jpg");
+			margin: auto;
+		}
+
+		.photocontainer .closebtn {
+			position: absolute;
+			top: 0%;
+			right: 5%;
+			font-size: 300%;
+			margin-right: 0%;
+			color: #F707D7;
+			text-decoration: none;
+		}
+	
+		.photobtn {
+			font-family: dk;
+			font-size: 100%;
+			text-align: center;
+			padding-bottom: 1%;
+			margin: auto;
+			display:block;
+			margin-top: 2%;
+		}
+
+		.phototitle {
+			font-family: StateOfDreaming;
+			color: white;
+			background-color: transparent;
+			font-size: 100%;
+			width: 60%;
+			height: 70px;
+			font-style: italic;
+			border-style: none;
+			margin: auto;
+			text-align: center;
+			padding-top: 1%;
+			padding-bottom: 1%;
+		}
+
+		.uploadphoto {
+			float: left;
+		}
+
+		.photoinput {
+			color: white;
+			width: 50%;
+			margin-top: 2%;
+			font-family: dk;
+			letter-spacing: 1px;
+			font-size: 100%;
+			margin: auto;
+		}
+
+/*blog*/
+
+	#blogbody {
+		background-image: url("photos/blogbg.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+
+	@font-face {
+		font-family: StateOfDreaming;
+		font-weight: bold;
+		src:url("fonts/StateOfDreaming.ttf");
+	}
+
+	.bloginput {
+		width: 50%;
+		margin-top: 2%;
+		font-family: dk;
+		letter-spacing: 1px;
+		color: white;
+		font-size: 100%;
+		margin: auto;
+	}
+
+		.blogcontent {
+			height: 400px;
+			width: 100%;
+			background-color: transparent;
+			border-style: solid;
+			border-color:#E31096;
+			color: white;
+			font-size: 80%;
+			color: white;
+			overflow-y: scroll;
+			font-family: "Comic Sans MS";
+			padding-left: 0;
+			padding-top: 0;
+			padding-bottom: 1.4em;
+			padding-right: 0.4em;
+			margin-top: 2%;
+		}
+
+
+		.blogcontainer {
+			height: 0;
+			position: fixed;
+			top: 2%;
+			overflow-y: scroll;
+			transition: 0.1s;
+			margin: auto;
+			width: 100%;
+		}
+
+		#blogoverlay {
+			font-family: dk;
+			font-size: 150%;
+			text-align: left;
+			background-image: url("photos/blogbg.jpg");
+			margin: auto;
+			margin-top: -1%;
+		}
+
+		.blogcontainer .closebtn {
+			position: absolute;
+			top: 0%;
+			right: 5%;
+			font-size: 300%;
+			margin-right: 0%;
+			color: #F707D7;
+			text-decoration: none;
+		}
+	
+		.blogbtn {
+			font-family: dk;
+			font-size: 100%;
+			text-align: center;
+			padding-bottom: 1%;
+			margin: auto;
+			display:block;
+			margin-top: 2%;
+		}
+
+		.blogtrigger {
+			font-family: mcletters;
+			text-align: right;
+			padding-top: 2%;
+			padding-right: 4%;
+			position: fixed;
+			right: 0;
+		}
+
+		.return {
+			font-family: mcletters;
+			text-align: right;;
+			padding-right: 4%;
+			padding-top: 30%;
+			position: fixed;
+			right: 0;
+			text-align: bottom;
+			text-decoration: none;
+		}
+
+		.blogtitle {
+			font-family: StateOfDreaming;
+			color: white;
+			background-color: transparent;
+			border-style: solid;
+			border-color:#E31096;
+			font-size: 180%;
+			width: 100%;
+			margin-top: 2%;
+		}
+
+		.blogbtn {
+			margin-top: 1%;
+			margin-bottom: 1%;
+			font-family: dk;
+			font-size: 100%;
+			padding-bottom: 1%;
+		}
+
+			.blogarticle {
+				width: 50%;
+				margin: auto;
+				margin-top: 0%;
+			}
+
+			.blogdate {
+				text-decoration: italic;
+				color: white;
+				font-family: "Comic Sans MS";
+				font-size: 80%;
+			}
+
+			.sampleblog {
+				text-decoration: bold;
+				font-family: StateOfDreaming;
+				font-size: 150%;
+				text-align: center;
+			}
+
+			.sampleblogcontent {
+				font-family: "Comic Sans MS";
+				color: white;
+				font-size: 90%;
+			}
+
+			.blogphoto {
+				width: 40em;
+				height: 28em;
+			}
+
+			.authorblog {
+				font-family: "Comic Sans MS";
+				color: white;
+				font-size: 90%;
+				font-style: italic;
+			}
+
+			#photoblog {
+				margin-left: -45%;
+				margin-top: -60%;
+			}
+		
+
+/*about*/
+	
+	.aboutpic {
+		background-image: url("photos/aboutme2.png");
+		background-repeat: no-repeat;
+		width: 100%;
+		margin-top: .2%;
+		position: initial;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+	
+		
+	.aboutmethings {
+		font-family: StateOfDreaming;
+		font-size: 150%;
+		color: black;
+		font-weight: bold;
+		text-shadow: .5px .5px white;
+		width: 50%;
+		margin: 1% 0% 0 20%;
+	}
+	
+	.aboutmename {
+		font-family: Hallelujah;
+		font-size: 400%;
+		color: white;
+		text-shadow: 2px 2px black;
+		margin-left: 30%;
+		margin-top: -3%;
+	}
+
+	@font-face {
+		font-family: murderous;
+		font-weight: bold;
+		src:url("fonts/murderous.otf");
+	}
+	
+	.aboutmelink {
+		margin-top: -3%;
+	}
+	
+	#navaboutme {
+		list-style-type: none;
+		margin-top: -4.7%;
+		overflow: hidden;
+		background-color: #D90BD2;
+		display: block;
+		padding: .5% 3%;
+		text-align: center;
+		text-shadow: 2px 2px black;
+	}
+	
+	.aboutnavlist {
+		text-decoration: none;
+		font-family: dk;
+		color: white;
+		font-size: 130%;
+		padding: 30px;
+		letter-spacing: 4px;
+	}
+	
+	@font-face {
+		font-family: dk;
+		font-weight: bold;
+		src:url("fonts/dk.otf");
+	}
+	
+	@font-face {
+		font-family: Hallelujah;
+		font-weight: bold;
+		src:url("fonts/Hallelujah.otf");
+	}
+	
+	.aboutmeh1 {
+		font-family: murderous;
+		font-size: 500%;
+		text-align: center;
+		color: white;
+		text-shadow: 4px 8px black;
+		letter-spacing: 2px;
+		line-height: 1.5em;
+	}
+	
+	.aboutmelogo {
+		background-image: url("photos/mf2.png");
+		background-repeat: no-repeat;
+		height: 100%;
+		margin-top: -.5%;
+	}
+	
+	.aboutnavlist:hover {
+		background-color: #A10D9C;
+	}
+	
+	#insta {
+		text-decoration: none;
+		font-family: dk;
+		color: white;
+		font-size: 100%;
+		padding: 2%;
+	}
+	
+	.icons {
+		list-style-type: none;
+		margin-top: -8%;
+		margin-bottom: 1%;
+		overflow: hidden;
+		background-color: transparent;
+		display: block;
+		text-align: center;
+		text-shadow: 4px 4px black;
+		font-size: 300%;
+	}
+	
+	#insta:hover {
+		background-color:transparent;
+	}
+	
+	
+
+	
